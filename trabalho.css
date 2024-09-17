@@ -1,0 +1,42 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; 
+}
+
+
+#galeria {
+    padding: 20px;
+    background-color: #000000;
+    text-align: center;
+}
+
+.quadro-imagens {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 15px;
+    background-color: #772929;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 960px; 
+    border: 2px solid #ddd;
+    border-radius: 8px;
+}
+
+.imagem {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem img {
+    width: 100%; 
+    height: auto; 
+    max-width: 100%; 
+    border-radius: 4px;
+    object-fit: cover; 
+}

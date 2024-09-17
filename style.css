@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+body {
+    margin: 0;
+    font-family: 'Cinzel';
+    color: #fff;
+    background-color: #222;
+}
+
+header, footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #800000;
+}
+
+.logo img, .imagem2 {
+    width: 50px;
+    height: auto;
+    border: none;
+    margin: -10px 0;
+}
+.logo img {
+    transform: scale(5.5);
+}
+.imagem2 {
+    transform: scale(15.5);
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.imagens, .background {
+    position: relative;
+    background-color: #000;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+}
+.imagens {
+    background-image: url(img/rei-salomao.jpg);
+}
+.background {
+    background-image: url(img/rei-salomao.jpg);
+}
+
+.imagens .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagens h1, .texto h2 {
+    font-weight: bold;
+    color: #fff;
+}
+.imagens h1 {
+    font-size: 48px;
+    display: flex;
+    align-items: center;
+}
+.imagens h1 img {
+    margin-right: 10px;
+    height: 40px;
+}
+.texto h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.texto {
+    padding: 20px;
+    text-align: center;
+    background-color: #111;
+}
+
+.texto p {
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+    color: #bbb;
+}
+
+
+
+.footer-left p {
+    margin: 0;
+    color: #fff;
+}
+
+.footer-right a img {
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+}
+.footer-left p, .footer-right p {
+    font-size: 0.8em;
+    padding: 10px; 
+    margin: 10px; 
+  }
+
+
+/* INICIO DA BIOGRAFIA */
+.biografia h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
